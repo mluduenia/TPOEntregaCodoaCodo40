@@ -1,0 +1,52 @@
+:root{
+    --alto_menu:60px;
+    --alto_hero:50vh;
+}
+body{
+    /* background-color: blue; */
+    
+}
+#servicios p{
+    padding-top: 10px;
+    padding: 16px;
+}
+#servicios .servicios{
+    display: grid;
+    grid-template-rows: auto auto;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+    font-size: 18px;
+}
+.servicio{
+    padding: 10px 4px;
+}
+.proyectos{
+    display: grid;
+    width: 100%;
+    grid-template-areas:
+    "p_1 p_2 p_3"
+    "p_4 p_5 p_6"
+    "v_1 v_1 v_1"
+    ;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 8px;
+}
+.proyectos label{
+    height: 18vh;
+}
+.btn_menu{
+    height: var(--alto_menu);
+    background-color: rgba(128, 128, 128, 0.575);
+    font-size: 40px;
+    border-radius: 12px;
+    top: 0;
+}
+.servicio:hover img{
+    /* width: 120px; */
+    /* height: 120px; */
+    width: 60%;
+    margin-top: 0;
+}
+#form_contact .fila input {
+    width: 50%;
+}

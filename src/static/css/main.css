@@ -1,0 +1,146 @@
+@charset "utf-8";
+.servicios{
+    display: grid;
+    grid-template-rows: 24vh 24vh 24vh;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    font-size: 14px;
+    padding: 10px 0;
+    width: 100%;
+}
+.servicio{
+    /* border: 1px solid red; */
+    filter: grayscale(100%);
+    transition: 0.4s;
+    display: flex;
+    justify-content: start;
+    /* justify-content: center; */
+    align-items: center;
+    padding: 4px 4px;
+    box-sizing: border-box;
+    /* padding-top: 16px; */
+    /* text-align: center; */
+    flex-direction: column;
+    border-radius: 8px;
+    line-height: 1.2;
+    -webkit-box-shadow: 1px 1px 2px 2px rgba(52,58,64,1);
+-moz-box-shadow: 0.5px 0.5px 1px 1px rgba(52,58,64,1);
+box-shadow: 1px 1px 2px 2px rgba(52,58,64,1);
+}
+.servicio:hover{filter: none;}
+.servicio:hover img{
+    filter: none;
+}
+.servicio img{
+    display: flex;
+    /* width: 80px; */
+    width: 50%;
+    height: auto;
+    background-color: #ff0000;
+    border-radius: 50%;
+    margin-top: 10%;
+}
+.proyecto{
+    /* border: 1px solid blue; */
+    /* grid: 1; */
+    display: none;
+    grid-area: v_1;
+    width: 100%;
+    padding: 0 10px;
+}
+.elemento{
+    cursor: pointer;
+}
+.elemento:hover + .elemento-hermano {
+    /* Estilos que se aplicarán al hermano al hacer hover sobre el primer elemento */
+    /* background-color: #007bff; */
+    color: #fff;
+}
+.elemento:focus-visible + .elemento-hermano {
+    /* Estilos que se aplicarán al hermano al hacer hover sobre el primer elemento */
+    background-color: #ff0000;
+    color: #fff;
+}
+.proyectos input[type="radio"]{
+    display: none;
+}
+.proyectos input[type="radio"]:checked + .proyecto{
+    /* background-color: #ff0000; */
+    /* color: #ff0000; */
+    /* border: 1px solid #ff0000; */
+    display:block;
+}
+.proyectos{
+    display: grid;
+    width: 100%;
+    grid-template-areas:
+    "p_1 p_2"
+    "p_3 p_4"
+    "p_5 p_6"
+    "v_1 v_1 "
+    ;
+    grid-template-columns: 1fr 1fr;
+    gap: 8px;
+}
+.proyectos label{
+    border: 2px solid white;
+    grid: 1;
+    margin: 0;
+    border-radius: 10px;
+}
+.proyectos label:hover{
+    border: 2px solid red;
+}
+.proyectos label:focus{
+    border: 2px solid #343a40;
+}
+.proyecto_1{
+    grid-area: p_1;
+}
+.proyecto_2{
+    grid-area: p_2;
+}
+.proyecto_3{
+    grid-area: p_3;
+}
+.proyecto_4{
+    grid-area: p_4;
+}
+.proyecto_5{
+    grid-area: p_5;
+}
+.proyecto_6{
+    grid-area: p_6;
+}
+/* .proyectos > article:nth-child(3){background-color: #ff0000;}
+.proyectos > article:nth-child(6){background-color: violet;}
+.proyectos > article:nth-child(9){background-color: pink;}
+.proyectos > article:nth-child(12){background-color: black;}
+.proyectos > article:nth-child(15){background-color: blue;}
+.proyectos > article:nth-child(18){background-color: aqua;} */
+.carousel-item{
+    text-align: center;
+}
+.carousel-caption{
+    padding: 10px 0;
+    margin: 0px auto;
+    /* line-height: 0; */
+    display: flex;
+    justify-content: center;
+    /* width: auto; */
+    left: 0;
+    right: 0;
+}
+.carousel-caption > * {
+    margin: 0px;
+    padding: 0px;
+    line-height: 1;
+}
+.carousel-caption > h3 {
+    margin-bottom: 10px;
+    padding: 0px;
+}
+.marco_titulos{
+    background-color: rgba(128, 128, 128, 0.4);
+    padding: 8px 32px;
+}

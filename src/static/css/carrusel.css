@@ -1,0 +1,81 @@
+#demo{
+    /* display: flex; */
+    /* justify-content: center; */
+    /* width: 100%; */
+    /* text-align: center; */
+    /* margin: 0 auto; */
+    /* padding: 0 10px; */
+}
+.carousel-inner{
+    display: flex;
+    /* justify-content: center; */
+    /* align-items: center; */
+    text-align: center;
+    height: 40vh;
+    width: 100%;
+    /* overflow-y: auto; */
+    position: relative;
+}
+.carousel-item{
+    height: 100%;
+}
+.carousel-inner img {
+    object-position: center center;
+    /* display: flex; */
+    /* justify-content: center; */
+    /* width: 70%; */
+    position: absolute;
+    /* top: 0; */
+    bottom: 0;
+    width: 100%;
+    left: 0;
+    right: 0;
+    height: 100%;
+    /* object-fit: scale-down; */
+    object-fit: contain;
+}
+.proyectos label p{margin: 0;
+    background-color: rgba(128, 128, 128, 0.418);
+    color: white;
+    padding: 10px 20px;
+}
+.proyectos label{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 16vh;
+    width: auto;
+    background-repeat: no-repeat;
+    box-sizing: border-box;
+}
+.proyecto_1{
+    background-size: 100% 100%;
+    background-image: url("../img/Pinamar/1.jpeg");
+}
+.proyecto_2{
+    background-size: 100% 100%;
+    background-image: url("../img/Ramos2/Dormi1.jpg");
+}
+.proyecto_3{
+    background-size: 100% 100%;
+    background-image: url("../img/Balconies/balconies4.jpg");
+}
+.proyecto_4{
+    background-size: 100% 100%;
+    background-image: url("../img/ramos3/Living1.jpg");
+}
+.proyecto_5{
+    background-size: 100% 100%;
+    background-image: url("../img/Coleurs/DSC05059.JPG");
+}
+.proyecto_6{
+    background-size: 100% 100%;
+    background-image: url("../img/Ramos1/CocinaAng2.jpg");
+}
+.proyecto_1 img{
+    /* width: 33%; */
+    /* position: relative; */
+}
+.proyecto_1 .titulo_carrusel{
+    /* position: absolute; */
+}

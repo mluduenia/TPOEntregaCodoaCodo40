@@ -1,0 +1,130 @@
+@charset "utf-8";
+#form_contact{
+    /* border: 1px solid red; */
+}
+#form_contact > *{
+    /* margin: 0; */
+    padding: 0;
+    margin: 10px 0;
+    display: block;
+}
+#form_contact .fila{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    /* height: auto; */
+}
+#form_contact .fila_checkbox{
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+    flex-wrap: wrap;
+    /* height: auto; */
+}
+#campo_recibir{
+    margin-right: 10px;
+}
+#form_contact .fila input{
+    height: calc(1.5em + .75rem + 2px);
+    display: block;
+    width: 100%;
+    border: 1px solid #ced4da;;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+#form_contact label{
+    margin: 0;
+}
+#form_contact .form-control{
+    /* border-style: double; */
+    /* height: 1.5em; */
+    /* width: 40%; */
+}
+
+#form_contact button{
+    background-color: #343a40;
+    padding: 4px 8px;
+    border-radius: 4px;
+    color: white;
+    border: 1px solid #343a40;
+    /* margin: 0; */
+    margin: 10px auto;
+}
+.footer{
+    background-color: #343a40;
+    font-family: 'Source Sans 3', sans-serif;
+    color: white;
+    text-align: center;
+    padding: 10px 0px;
+}
+.redes_sociales {
+    /* background-color: blanchedalmond; */
+    width: 100%;
+    /* height: 10vw; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+    /* padding: 0 4px; */
+    box-sizing: border-box;
+    position: relative;
+    padding: 0px 20px;
+    /* border-radius: 0 0px 0px 0px; */
+}
+/* .icono_messenger {
+    width: 32px;
+    height: 32px;
+    background-image: url("../icons/facebook-messenger.svg");
+    background-position: center center;
+    display: block;
+} */
+.flex-container{
+    /* padding: 1px; */
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    margin: 10px auto;
+    /* width: 10%; se cortarian los iconos si la pantalla es muy pequeña */
+    /* height: 32px; */
+    
+}
+.title_footer{
+    margin: 0 auto;
+}
+.caja{
+    background: #343a40;
+    font-weight: bold;
+    width: 40px;
+    height: 40px;
+    background-size: 40px 40px;
+    line-height: 40px;
+    text-align: center;
+    margin: 0 5px;
+    float: left;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: block;
+}
+.icono_facebook {
+    background-image: url("../icons/facebook.svg");
+}
+
+.icono_whatsapp {
+    background-image: url("../icons/whatsapp.svg");
+}
+
+.icono_linkedin {
+    background-image: url("../icons/linkedin.svg");
+}
+
+/* .icono_pinteres {
+    background-image: url("../icons/pinterest.svg");
+    width: 50px;
+    height: 50px;
+    background-image: url("../icons/facebook-messenger.svg");
+    background-size: 50px 50px;
+    background-position: center center;
+    display: block;
+    background-color: red;
+} */

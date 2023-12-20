@@ -1,0 +1,52 @@
+:root{
+    --alto_menu:60px;
+    --alto_hero:60vh;
+}
+body{
+    /* background-color: red; */
+}
+.carousel-item{
+    /* height: 50%; */
+}
+.icon-close, .btn_menu{display: none;}
+/* .ocultar_menu{display: block;} */
+.header{
+    display: block;
+    text-align: center;
+    /* position: initial; */
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+.logo{
+    position: sticky;
+}
+.menu{
+    flex-wrap: wrap;
+    display: flex;
+    /* display: block; */
+    position: sticky;
+    /* top: 0; */
+    /* left: 0; */
+}
+.adaptador{
+    display: flex;
+    /* display: block; */
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.hero_container{
+    padding: 0;
+}
+.servicio{
+    /* padding-top: 40px; */
+    /* padding: 0 10px; */
+}
+.proyectos label{
+    height: 20vh;
+}
+.conten{
+    /* padding: 0; */
+    max-width: 1280px;
+    margin: 0 auto;
+}
